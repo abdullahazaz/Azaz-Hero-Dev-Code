@@ -50,12 +50,15 @@
 
    
 }
+.text-center{
+    text-align: center;
+}
 
 /* main body */
 header {
     background-color: #FFF8F3;
     background: url("../images/developer.png") ,url(../images/header_bg.png),#FFF8F3;
-    background-position: top left, bottom right ;
+    background-position: 23px 38px, bottom right ;
     background-repeat: no-repeat;
     padding-top:68px;
     
@@ -218,4 +221,49 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #474747;
+}
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-section{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-section .social{
+    max-width: 562px;
+}
+.footer-section h2{
+    color:#181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-section .social{
+    color: #474747;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+.footer-section .icons a{
+    margin-right: 24px;
+}
+.footer-section .icons a {
+    margin-right: 24px;
+    display: inline-flex;
+}
+.footer-section form input[type="text"] , .footer-section form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+.footer-section .icons a:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
